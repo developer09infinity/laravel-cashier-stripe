@@ -23,3 +23,6 @@ use App\Http\Controllers\ProductController;
 Route::get('/', [ProductController::class, 'index']);
 Route::get('/product/{product}', [ProductController::class, 'show'])->name('product.show');
 Route::get('/checkout/{product}', [ProductController::class, 'checkout'])->name('product.checkout');
+
+
+// TEST
